@@ -3,9 +3,6 @@ name: Terraform Deploy
 on:
   workflow_dispatch: # Allows manual triggering of the workflow
 
-  push:
-    branches: [ "main" ]
-
 permissions:
   id-token: write # Required for requesting the JWT
   contents: read  # Required for checkout
