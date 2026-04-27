@@ -12,5 +12,5 @@ provider "azuread" {}
 
 # 2. Create the Application
 resource "azuread_application" "gh_app" {
-  display_name = "github-actions-terraform-app"
+  display_name = "github-actions-terraform-app v2"
 }
